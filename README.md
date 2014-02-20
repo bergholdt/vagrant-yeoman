@@ -8,7 +8,7 @@ Setting up Yeoman development environment under Vagrant. Basic steps:
 3. Run **vagrant up** - have a cup of cofee, while VM is downloading and is being setup
 4. Run **vagrant ssh** to connect to client VM
 5. Inside **projects** directory, create a sub-directory for actual yeoman project. For example **yeoman-test**
-6. Run **yo angular** - agree to all default choices
+6. Run **yo ember** - agree to all default choices
 7. As per PROJECT_ADJUSTMENT.md:
     - Change **localhost** to **0.0.0.0** in Gruntfile.js (vi is available or use whatever you want on host-side)
     - Comment out test call for default **grunt** action
@@ -21,3 +21,5 @@ Setting up Yeoman development environment under Vagrant. Basic steps:
 14. **exit** from the VM
 15. Run **vagrant suspend** to stop VM running
 
+Source https://github.com/arafalov/vagrant-yeoman
+https://github.com/yeoman/generator-ember
